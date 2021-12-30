@@ -109,10 +109,11 @@ echo ""
 criarUsuario
 echo ""
 
+echo "Usuários criados com sucesso"
 echo "voltando ao menu inicial..."
 echo ""
 
-sleep 5
+sleep 3
 
 echo "================================================================================================"
 ;;
@@ -123,7 +124,7 @@ echo ""
 criarPosts
 echo ""
 
-echo "usuários criados com sucesso"
+echo "Posts criados com sucesso"
 echo ""
 echo "voltando ao menu inicial"
 sleep 5
@@ -141,10 +142,10 @@ echo '==========================================================================
 5)
 excluirUsuario;
 echo ""
-echo "Usuário do id $id_excluir excluido com sucesso."
+echo "Usuário do id $id excluido com sucesso."
 echo ""
 echo "voltando ao menu inicial..."
-sleep 5
+sleep 3
 echo '================================================================================================'
 ;;
 
@@ -153,7 +154,7 @@ listarUsuarios;
 echo ""
 echo "voltando ao menu inicial..."
 echo ""
-sleep 5
+sleep 3
 echo '================================================================================================'
 ;;
 
@@ -162,7 +163,7 @@ listarPosts;
 echo ""
 echo "voltando ao menu inicial..."
 echo ""
-sleep 5
+sleep 3
 echo '================================================================================================'
 ;;
 
@@ -171,7 +172,7 @@ listarComentarios;
 echo ""
 echo "voltando ao menu inicial..."
 echo ""
-sleep 5
+sleep 3
 echo '================================================================================================'
 ;;
 
