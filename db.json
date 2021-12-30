@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": "Vania2",
+      "title": "Oi",
+      "author": "Vania"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    [
+      {
+        "id": 1,
+        "body": "some commentteste",
+        "postId": 1
+      }
+    ]
+  ],
+  "profile": [
+    {
+      "id": 1,
+      "name": "typicode"
+    },
+    {
+      "id": "2",
+      "profile": "Vania"
+    },
+    {
+      "id": "3",
+      "profile": "Vania3"
+    },
+    {
+      "id": "4",
+      "profile": "Vania4"
+    }
+  ]
+}
